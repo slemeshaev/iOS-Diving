@@ -1,63 +1,58 @@
 //
-//  MainViewController.swift
-//  LifeCycleVC
+//  ViewController.swift
+//  AppLifeCycle
 //
-//  Created by Stanislav Lemeshaev on 27.01.2024.
+//  Created by Stanislav Lemeshaev on 10.02.2024.
 //  Copyright © 2024 slemeshaev. All rights reserved.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
-    
+class ViewController: UIViewController {
+
     override func loadView() {
         super.loadView()
         let customView = UIView()
-        customView.backgroundColor = .green
+        customView.backgroundColor = .systemCyan
         
         let label = UILabel()
-        label.text = "MainViewController"
+        label.text = "ViewController"
         label.textColor = .white
         label.textAlignment = .center
         label.frame = CGRect(x: 100, y: 100, width: 200, height: 40)
-        label.backgroundColor = .blue
+        label.backgroundColor = .systemGreen
         customView.addSubview(label)
         
         view = customView
+        print(#function)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("### MainViewController")
         print(#function)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("### MainViewController")
         print(#function)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("### MainViewController")
         print(#function)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("### MainViewController")
         print(#function)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("### MainViewController")
         print(#function)
     }
     
     deinit {
-        print("### MainViewController")
         print(#function)
     }
 }
