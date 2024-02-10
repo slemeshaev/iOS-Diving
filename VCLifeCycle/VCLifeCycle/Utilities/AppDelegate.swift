@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  LifeCycleVC
+//  VCLifeCycle
 //
-//  Created by Stanislav Lemeshaev on 27.01.2024.
+//  Created by Stanislav Lemeshaev on 10.02.2024.
 //  Copyright © 2024 slemeshaev. All rights reserved.
 //
 
@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     // MARK: - UISceneSession Lifecycle
+    
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.

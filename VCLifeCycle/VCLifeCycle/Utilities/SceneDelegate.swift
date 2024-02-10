@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  LifeCycleVC
+//  VCLifeCycle
 //
-//  Created by Stanislav Lemeshaev on 27.01.2024.
+//  Created by Stanislav Lemeshaev on 10.02.2024.
 //  Copyright © 2024 slemeshaev. All rights reserved.
 //
 
