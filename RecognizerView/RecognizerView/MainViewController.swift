@@ -28,7 +28,7 @@ class MainViewController: UIViewController {
     }
     
     // Метод обработки жеста косания
-    @objc func handleTap(_ gestureRecognizer: UITapGestureRecognizer) {
+    @objc private func handleTap(_ gestureRecognizer: UITapGestureRecognizer) {
         view.backgroundColor = .systemCyan
     }
 }
